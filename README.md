@@ -1,6 +1,6 @@
 # hiragana
 
-> An electron-vue project
+> An electron-vue project made for learning hiragana
 
 #### Build Setup
 
