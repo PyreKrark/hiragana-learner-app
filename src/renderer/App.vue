@@ -8,7 +8,7 @@
 
   	<div id="app">
     	<router-view></router-view>
-  		</div>
+  	</div>
 	</div>
 </template>
 
@@ -23,17 +23,44 @@
 </script>
 
 <style>
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Montserrat';
+}
+
+#app {
+  overflow: hidden;
+}
+
 body {
-	background: #1a1a1a;
+  overflow: hidden;
 }
 
 .topbar {
-    height: 25px;
-    width: 100%;
-    -webkit-app-region: drag;
-    background: #1a1a1a;
-    position: fixed;
-    z-index: 999;
-    display: flex;
+  height: 25px;
+  width: 100%;
+  -webkit-app-region: drag;
+  background: #1a1a1a;
+  position: fixed;
+  z-index: 999;
+  display: flex;
+}
+
+.page {
+  text-align: center;
+  width: 100%;
+  margin-top: 21px;
+  margin-right: 120px;
+  background: #131517;
+  border-radius: 5px;
+  color: white;
+  height: 100vh;
+  padding: 1px;
+  overflow: auto;
 }
 </style>

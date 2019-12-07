@@ -1,7 +1,7 @@
 <template>
   <div id="wrapper">
 
-      <div id="page">
+      <div class="page">
         <div id="imageBox"> 
             <h1 id="letter" v-model="question">{{ letter }}</h1>
         </div>
@@ -13,6 +13,7 @@
         </div>
       </div>
 
+      
   </div>
 </template>
 
@@ -102,36 +103,12 @@
   }
 </script>
 
-<style>
-
-  @import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
-
-  * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat';
-    overflow-x: hidden;
-    overflow-y: hidden;
-  }
-
+<style scoped>
   #wrapper {
     background: #1a1a1a;
-    height: 100vh;
-    padding: 1px;
     width: 100vw;
     display: flex;
     flex-direction: row;
-  }
-
-  #page {
-    text-align: center;
-    width: 100%;
-    margin-top: 27px;
-    margin-right: 179px;
-    background: #131517;
-    border-radius: 5px;
-    color: white;
   }
   #imageBox {
     margin-top: 100px;
@@ -147,6 +124,7 @@
   }
   #answerBox {
     margin-top: 100px;
+    user-select: none;
   }
 
   #answerBar {

@@ -22,7 +22,7 @@ function createWindow () {
     useContentSize: true,
     width: 1000,
     frame: false,
-    title: "Hiragana!",
+    title: "HiraganaLearner!",
     webPreferences: {
       webSecurity: false,
       devTools: true

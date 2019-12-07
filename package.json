@@ -1,6 +1,6 @@
 {
-  "name": "hiragana-learning-app",
-  "version": "0.0.1",
+  "name": "hiragana-learner-app",
+  "version": "0.0.2",
   "author": "PyreKrark",
   "description": "An app to learn hiragana pronunciation",
   "license": null,
@@ -17,7 +17,7 @@
     "postinstall": ""
   },
   "build": {
-    "productName": "hiragana",
+    "productName": "Hiragana Learner",
     "appId": "com.example.yourapp",
     "directories": {
       "output": "build"
@@ -51,12 +51,19 @@
     }
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.7.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.15",
+    "@fortawesome/free-brands-svg-icons": "^5.7.2",
+    "@fortawesome/free-solid-svg-icons": "^5.7.2",
+    "@fortawesome/vue-fontawesome": "^0.1.5",
     "aws-sdk": "^2.584.0",
     "axios": "^0.18.0",
     "event-stream": "^4.0.1",
+    "font-awesome": "^4.7.0",
     "sqlite3": "^4.0.6",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
+    "vue-flip": "^0.3.0",
     "vue-router": "^3.0.1",
     "vuex": "^3.0.1",
     "vuex-electron": "^1.0.0"
