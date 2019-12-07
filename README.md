@@ -1,4 +1,4 @@
-# hiragana
+# HiraganaLearner
 
 > An electron-vue project made for learning hiragana
 
