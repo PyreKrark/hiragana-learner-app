@@ -5,14 +5,19 @@
 #### Build Setup
 
 ``` bash
+#use NPM if you don't have Yarn installed
+
 # install dependencies
 npm install
+yarn
 
-# serve with hot reload at localhost:9080
+# run developer at localhost:9080
 npm run dev
+yarn run dev
 
 # build electron application for production
 npm run build
+yarn run build
 
 
 ```
