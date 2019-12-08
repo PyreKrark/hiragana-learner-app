@@ -5,7 +5,7 @@
 #### Build Setup
 
 ``` bash
-#use NPM if you don't have Yarn installed
+# use NPM if you don't have Yarn installed
 
 # install dependencies
 npm install
