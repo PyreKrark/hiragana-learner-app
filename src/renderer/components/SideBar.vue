@@ -12,7 +12,7 @@
       </ul>
 
       <div class="icons">
-        <div href="#" @click.prevent="open('https://github.com/Zorakrark/hiragana-learner-app')" style="padding-left: 5px;">
+        <div href="#" @click.prevent="open('https://github.com/PyreKrark/hiragana-learner-app')" style="padding-left: 5px;">
           <icon style="height: 40px; width: 40px; background: white; border-radius: 20px;" :icon="['fab', 'github']"></icon>
         </div>
 
